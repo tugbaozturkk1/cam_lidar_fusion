@@ -1,0 +1,20 @@
+# Python önbellekleri
+__pycache__/
+*.pyc
+
+# Ham KITTI veri seti
+kitti_tiny/
+
+# Geliştirme ortamı klasörleri
+.vscode/
+.idea/
+*.venv/
+env/
+
+# Results klasöründeki tüm görselleri yoksay
+results/*.png
+
+# Sadece vitrinde sergilenecek 3 gorsel
+!results/fusion_000053.png
+!results/fusion_000068.png
+!results/fusion_000073.png
